@@ -49,22 +49,9 @@
                         class="icon"></span>GitHub</a>
                 <a href="{{ site.baseurl }}/about" class="btn btn-github"><span class="icon"></span>About</a>
             </section>
-            {% if page.title contains "Portals" %}
-            {% include quickfilter.html %}
-            {% endif %}
-            {% include tenantid.html %}
-
         </div>
     </header>
 
-    <div class="container">
-        <section id="main_content">
-            {{ content }}
-            {% if page.title contains "Portals" %}
-            {% include nomatches.html %}
-            {% endif %}
-        </section>
-    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js"
         integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
