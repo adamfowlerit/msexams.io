@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Administrator Portals
+title: Microsoft Exams & Certifications
 ---
 
-Welcome to this community driven project to list all of Microsoft's portals in one place.
+Welcome to this community driven project to collate all the good Microsoft Exam & Certification resources we can find.
 
 {% include portal.html portal="admin" %}
 
