@@ -1,1 +1,15 @@
-
+[
+  {
+    "groupName": "TBC Test 1",
+    "portals": [
+      {
+        "portalName": "📌 Microsoft Portals",
+        "primaryURL": "https://msportals.io/"
+      },
+      {
+        "portalName": "Where's My Tenant ?",
+        "primaryURL": "https://gettenantpartitionweb.azurewebsites.net/"
+      }
+    ]
+  }
+]
